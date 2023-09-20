@@ -15,4 +15,10 @@ public class one {
         System.out.println("String 2 :" + surname);
         System.out.println("to find same sequance :" + name.contains(surname));
     }
+    //remove spacial char
+    void spacialchar(String santance){
+        System.out.println("original santance :" + santance);
+        System.out.println("new santance :" + santance.replaceAll("[^a-zA-Z0-9]"," "));
+    }
+
 }
